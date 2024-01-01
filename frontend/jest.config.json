@@ -1,0 +1,7 @@
+{
+"moduleNameMapper": {
+ "\\.(css|less|scss|sass|png|jpg|webp)$": "identity-obj-proxy"
+},
+ "testEnvironment": "jsdom"
+}
+

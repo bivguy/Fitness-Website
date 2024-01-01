@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --secondaryColor: rgb(33, 136, 180);
+}
+
+body{
+    background-color: white;
+    margin: 0;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+.header{
+    background-color: black;
+    color: white;
+    margin: auto;
+    text-align: center;   
+}
+
+.header h1{
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+/* Form */
+
+.form-container{
+    width: 500px;
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px rgb(255, 255, 255) solid;
+    margin: auto;
+    color: white;
+}
+
+.form{
+    background-color: black;
+    width: 80%;
+    height: 100%;
+    
+}
+
+.toggleForm{
+    text-decoration: none;
+    border-bottom: 1px white solid;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.toggleForm:hover{
+    cursor: pointer;
+    color: rgb(127, 117, 117);
+}
+
+.form input{
+    border: none;
+    padding: 5px;
+}
+
+.form button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    margin: 5px;
+    border: none;
+    padding: 10px 0 10px 0;
+}
+
+.form button:hover{
+    cursor: pointer;
+    background-color: rgb(127, 117, 117);
+}
+
+#login-btn{
+    width: 150px;
+    height: 40px;
+    
+}
+
+.login-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.form-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    gap: 2px;
+    flex: 1 1 0px;
+}
+
+.form-type-header{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.registration-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+}
+
+.two-column{
+    display: flex;
+    /* justify-content: space-between; */
+    flex: 1 1 0px;
+    gap: 5px;
+    align-items: center;
+}
+
+.error{
+    color: red;
+    font-size: 12px;
+    text-align: left;
+  
+  }
+  
+
+/* LoginForm specifics */
+
+.loginContainer .form-items{
+    gap: 20px;
+    padding-top: 10px;
+}
+
+.loginContainer .form-item{
+    gap: 5px;
+}
+
+.loginContainer input{
+    padding: 10px;
+}
+
+/* Main Page */
+
+/* Main Header */
+
+.main-header-container{
+    background-color: black;
+    color: white;
+    height: 64px;
+    /* border-bottom: 2px solid white; */
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.main-header h1{
+    font-weight: lighter;
+}
+
+.profileBtn{
+    background-color: rgb(33, 136, 180);
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+
+}
+
+.profileBtn:hover{
+    background-color: rgb(72, 105, 120);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
