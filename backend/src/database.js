@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const { profileSchema, userSchema , articleSchema, commentSchema } = require('./allSchemas');
 
-const mongoURL = `mongodb+srv://bs81:mongoDB@cluster0.zub7vhf.mongodb.net/?retryWrites=true&w=majority`;
+const mongoURL = `process.env.MONGO`;
 
 const User = mongoose.model("User", userSchema);
 const Profile = mongoose.model("Profile", profileSchema);
